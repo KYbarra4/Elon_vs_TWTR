@@ -23,7 +23,7 @@ End
 
 ![Stock_date_end](https://user-images.githubusercontent.com/113717031/209484172-6cf6aa79-7956-4346-9ef9-d49c4f5bd312.png)
 
-Scrapped the CNN website for all headers under the 'h2' class of subheader, copied the dates into a new column, added the year 2022, cleaned unneaded characters, and cleaned up spacing.
+Scrapped the CNN website for all headers under the 'h2' class of subheader, copied the dates into a new column, added the year 2022, cleaned unneeded characters, and cleaned up spacing.
 
 Start
 
@@ -41,13 +41,9 @@ Table Schemas for a pgAdmin integration
 
 ![table_schema](https://user-images.githubusercontent.com/113717031/209484258-36ac6b99-0728-468a-9916-cca137301e60.png)
 
-## Host Connection & pgAdmin tables
+## Host Connection
 
 ![host](https://user-images.githubusercontent.com/113717031/209484281-fb7b14de-613c-4944-a3f8-eac99189af50.png)
-
-![twtr_all_psg](https://user-images.githubusercontent.com/113717031/209484301-a89fbbd4-c7ff-474e-bbbc-d3c321c935e1.png)
-
-![twtr_dates_psg](https://user-images.githubusercontent.com/113717031/209484306-9099bcb6-df0f-44cf-b4fb-821700beaaf2.png)
 
 ## ETL Connection
 
@@ -58,5 +54,11 @@ Minor Cleaning to gather only the columns we will be using
 Importing data into tables
 
 ![sql_tables_python](https://user-images.githubusercontent.com/113717031/209484350-821abe16-95c4-4f23-b85c-6b6807647ee4.png)
+
+## pgAdmin Tables
+
+![twtr_all_psg](https://user-images.githubusercontent.com/113717031/209484538-4e28068e-3515-4d19-b3b6-ad257f2c9d82.png)
+
+![twtr_dates_psg](https://user-images.githubusercontent.com/113717031/209484539-e599ee1e-96b8-4dc1-a015-c5a03d5bb4e2.png)
 
 
