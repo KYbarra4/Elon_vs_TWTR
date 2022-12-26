@@ -1,7 +1,7 @@
 # Elon Headlines and Twitter Stock Price
 Project 2
 
-Group 18 will utilize a yfinance API call to gather data for twitter stock dating from inception intil Elon purchased twitter. We will web scrape a timeline from CNN to see how Elon's tweets/headlines affected the stock price on specific days in 2022 and enter it into a SQL database.
+Group 18 will utilize a yfinance API call to gather data for twitter stock dating from inception until Elon purchased twitter. We will web scrape a timeline from CNN to see how Elon's tweets/headlines affected the stock price on specific days in 2022 and enter it into a SQL database and retreive the results.
 
 ## Primary Source - YFinance API Call
 
