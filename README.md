@@ -63,7 +63,7 @@ Importing data into tables
 
 ## Final Query
 
-Queries to look at all data along with a final guery shown below
+Queries to look at all data along with a final query shown below
 
 ![twtr_psg_query](https://user-images.githubusercontent.com/113717031/209578670-47261593-08c1-4b73-9ac1-51041dd0149e.png)
 
