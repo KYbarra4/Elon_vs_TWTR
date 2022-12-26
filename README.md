@@ -67,3 +67,6 @@ Queries to look at all data along with a final guery shown below
 
 ![twtr_psg_query](https://user-images.githubusercontent.com/113717031/209578670-47261593-08c1-4b73-9ac1-51041dd0149e.png)
 
+## SQLAlchemy
+
+![twtr_python_query](https://user-images.githubusercontent.com/113717031/209579401-19b70190-d638-4d54-87a3-8a619b531aaa.png)
