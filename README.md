@@ -61,4 +61,9 @@ Importing data into tables
 
 ![twtr_dates_psg](https://user-images.githubusercontent.com/113717031/209484539-e599ee1e-96b8-4dc1-a015-c5a03d5bb4e2.png)
 
+## Final Query
+
+Queries to look at all data along with a final guery shown below
+
+![twtr_psg_query](https://user-images.githubusercontent.com/113717031/209578670-47261593-08c1-4b73-9ac1-51041dd0149e.png)
 
