@@ -7,13 +7,13 @@ Group 18 will utilize a yfinance API call to gather data for twitter stock datin
 
 ![twtr_api_yfinance](https://user-images.githubusercontent.com/113717031/209484049-e36d6ab7-3773-498a-bfa5-06e7bcc819b0.png)
 
-## Secondary Source - Web Scrape of CNN Website
+## Secondary Source - Web Scrape of CNN Website for Twitter importnat dates and headlines
 
 ![twtr_cnn](https://user-images.githubusercontent.com/113717031/209484079-3045a7ac-c97e-4ce9-8c97-4a2871cd1913.png)
 
 ## Data Cleaning
 
-Imported all data from 2013 to point of sale in Oct. 2022. Date cleaning for better reading.
+Imported all data from 2013 to point of sale in Oct. 2022 by using a yfinance API call. Cleaned the date for better reading by removing the time stamp. Saved this to a csv file to be used later.
 
 Start
 
@@ -23,7 +23,7 @@ End
 
 ![Stock_date_end](https://user-images.githubusercontent.com/113717031/209484172-6cf6aa79-7956-4346-9ef9-d49c4f5bd312.png)
 
-Scrapped the CNN website for all headers under the 'h2' class of subheader, copied the dates into a new column, added the year 2022, cleaned unneeded characters, and cleaned up spacing.
+Scrapped the CNN website for all headers under the 'h2' class of subheader to gather important dates and headlines. Copied the dates into a new column by splitting the text and copying the date to a new column. We added the year 2022 to the beginning of the date, cleaned unneeded characters, and cleaned up spacing. Finally we drobbed all dates that occured over a weekend or holiday due to no stock price movement.
 
 Start
 
@@ -82,4 +82,4 @@ From the data provided, we have concluded the following:
 
 Improvements for the future, whats next
 - Twitter is now private so all new data gathered will have different meaning
-- New evaluations can be made if daily assets and cash on hand along with liabilities were evaluated from before and after Twitter became private
+- New evaluations can be made if daily assets and cash on hand along with liabilities were evaluated from before and after Twitter becoming private
