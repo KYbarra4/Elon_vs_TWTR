@@ -23,7 +23,7 @@ End
 
 ![Stock_date_end](https://user-images.githubusercontent.com/113717031/209484172-6cf6aa79-7956-4346-9ef9-d49c4f5bd312.png)
 
-Scrapped the CNN website for all headers under the 'h2' class of subheader to gather important dates and headlines. Copied the dates into a new column by splitting the text and copying the date to a new column. We added the year 2022 to the beginning of the date, cleaned unneeded characters, and cleaned up spacing. Finally we drobbed all dates that occured over a weekend or holiday due to no stock price movement.
+Scrapped the CNN website for all headers under the 'h2' class of subheader to gather important dates and headlines. Copied the dates into a new column by splitting the text and copying the date to a new column. We added the year 2022 to the beginning of the date, cleaned unneeded characters, and cleaned up spacing. Finally we drobbed all dates that occured over a weekend or holiday due to no stock price movement and then exported it into a json file to be used later.
 
 Start
 
@@ -35,7 +35,7 @@ End
 
 ## Schema
 
-Table Schemas for a pgAdmin integration
+Table Schemas for a pgAdmin integration show a Primary Key and Foreign Key connection bewtween date to joing during the query.
 
 ![schema_psg](https://user-images.githubusercontent.com/113717031/209484256-b59e1efe-1b7a-4ed6-b49e-886948652bc8.png)
 
@@ -51,7 +51,7 @@ Minor Cleaning to gather only the columns we will be using
 
 ![sql_clean](https://user-images.githubusercontent.com/113717031/209484338-d5d71abe-fee9-43a9-b433-3ab3477729d8.png)
 
-Importing data into tables
+Importing data we gathered from before into tables
 
 ![sql_tables_python](https://user-images.githubusercontent.com/113717031/209484350-821abe16-95c4-4f23-b85c-6b6807647ee4.png)
 
