@@ -75,8 +75,11 @@ Queries to look at all data along with a final query shown below
 
 From the data provided, we have concluded the following:
 - Elon's overall affect on the TWTR stock price was positive starting at $35 on Jan 31st while ending at $54 on point of sale on October 27th
-- For the given headlines, we can see that the High during this period occured the day Elon agreed to join the Twitter board as a board member
-- After Twitter acknowledgement, the all time low occured when Twitter sued Elon on July, 12th 
+- For the given headlines, we can see that the High during this period occured the day Elon agreed to join the Twitter board as a board member at $55
+- After Twitter acknowledgement, the all time Low occured when Twitter sued Elon on July, 12th at $33
 - Pain for the TWTR stock price occured as Elon threatened to walk away
+- Twitter ended up being sold to Elon near the high at $54
 
-
+Improvements for the future, whats next
+- Twitter is now private so all new data gathered will have different meaning
+- New evaluations can be made if daily assets and cash on hand along with liabilities were evaluated from before and after Twitter became private
