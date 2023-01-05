@@ -1,5 +1,4 @@
-# Elon Headlines and Twitter Stock Price
-Project 2
+# Elon Musk's Influence on TWTR Stock Price 2022
 
 Group 18 will utilize a yfinance API call to gather data for twitter stock dating from inception until Elon purchased twitter. We will web scrape a timeline from CNN to see how Elon's tweets/headlines affected the stock price on specific days in 2022 and enter it into a SQL database and retreive the results.
 
@@ -7,35 +6,37 @@ Group 18 will utilize a yfinance API call to gather data for twitter stock datin
 
 ![twtr_api_yfinance](https://user-images.githubusercontent.com/113717031/209484049-e36d6ab7-3773-498a-bfa5-06e7bcc819b0.png)
 
-## Secondary Source - Web Scrape of CNN Website for Twitter importnat dates and headlines
+## Secondary Source - Web Scrape of CNN Website for Twitter important dates and headlines
+
+Web Source : "https://www.cnn.com/2022/05/17/tech/twitter-elon-musk-timeline/index.html"
 
 ![twtr_cnn](https://user-images.githubusercontent.com/113717031/209484079-3045a7ac-c97e-4ce9-8c97-4a2871cd1913.png)
 
-## Data Cleaning
+## Extracting & Data Cleaning
 
 Imported all data from 2013 to point of sale in Oct. 2022 by using a yfinance API call. Cleaned the date for better reading by removing the time stamp. Saved this to a csv file to be used later.
 
-Start
+### Start
 
 ![stock_data_start](https://user-images.githubusercontent.com/113717031/209484105-2efe4a43-7c47-44e3-8785-57cb66098fe1.png)
 
-End
+### End
 
 ![Stock_date_end](https://user-images.githubusercontent.com/113717031/209484172-6cf6aa79-7956-4346-9ef9-d49c4f5bd312.png)
 
-Scrapped the CNN website for all headers under the 'h2' class of subheader to gather important dates and headlines. Copied the dates into a new column by splitting the text and copying the date to a new column. We added the year 2022 to the beginning of the date, cleaned unneeded characters, and cleaned up spacing. Finally we drobbed all dates that occured over a weekend or holiday due to no stock price movement and then exported it into a json file to be used later.
+Scrapped the CNN website for all headers under the 'h2' class of subheader to gather important dates and headlines. Copied the dates into a new column by splitting the text and copying the date to a new column. We added the year 2022 to the beginning of the date, cleaned unneeded characters, and cleaned up spacing. Finally we dropped all dates that occured over a weekend or holiday due to no stock price movement and then exported it into a json file to be used later.
 
-Start
+### Start
 
 ![headlines_start](https://user-images.githubusercontent.com/113717031/209484202-918c2dd0-9d7c-4395-8de8-efbeadde51b3.png)
 
-End
+### End
 
 ![headlines_end](https://user-images.githubusercontent.com/113717031/209484204-2bb83d73-9f64-44fd-b20d-b5d63bba35cd.png)
 
 ## Schema
 
-Table Schemas for a pgAdmin integration show a Primary Key and Foreign Key connection bewtween date to joing during the query.
+Table Schemas for a pgAdmin integration show a Primary Key and Foreign Key connection between 'date' to join during the query.
 
 ![schema_psg](https://user-images.githubusercontent.com/113717031/209484256-b59e1efe-1b7a-4ed6-b49e-886948652bc8.png)
 
